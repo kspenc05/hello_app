@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
         render html: 'hello world'
     end
   
-    def my_name
+    def name
         render html: 'Kent Spence'
     end
 end
